@@ -1,0 +1,159 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f2f2f2;
+  color: #333;
+  line-height: 1.6;
+  background-color: #003366;
+}
+
+header {
+  background-color: #003366;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 30px;
+  flex-wrap: wrap;
+}
+
+.logo {
+  font-size: 38px;
+  font-weight: bold;
+  color: white;
+  user-select: none;
+}
+
+nav {
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+nav a {
+  background-color: orange;
+  color: white;
+  padding: 10px 16px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 6px;
+  transition: 0.3s ease;
+}
+
+nav a:hover {
+  background-color: #cc7a00;
+  transform: scale(1.1);
+}
+
+/* Container principal com espaçamento maior lateral */
+.page-container {
+  max-width: 1800px;
+  margin: 40px 70px;
+  padding: 30px;
+  background-color: white;
+  border-radius: 12px;
+  box-shadow: 0 0 12px rgba(0, 0, 0, 0.08);
+}
+
+/* Seções da página */
+.sobre-intro {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.sobre-intro h1 {
+  font-size: 32px;
+  color: #003366;
+  margin-bottom: 20px;
+}
+
+.sobre-intro p {
+  font-size: 18px;
+  color: #444;
+}
+
+.valores-missao {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.bloco {
+  background-color: #e8f0fa;
+  border-left: 6px solid orange;
+  border-radius: 10px;
+  padding: 20px;
+  width: 300px;
+}
+
+.bloco h2 {
+  color: #003366;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.bloco p,
+.bloco ul {
+  font-size: 16px;
+}
+
+.bloco ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+/* Time */
+.time {
+  text-align: center;
+}
+
+.time h2 {
+  color: #003366;
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+.cards-time {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+.card {
+  background-color: #fafafa;
+  border-radius: 10px;
+  padding: 20px;
+  width: 220px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+/* Footer com faixa branca e texto preto */
+footer {
+  background-color: white;
+  color: black;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  cursor: pointer;
+  text-decoration:double;
+}

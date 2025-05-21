@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <title>Pattu - Contato</title>
+  <link rel="stylesheet" href="CSS/contato.css" />
+</head>
+<body>
+  <header>
+    <div class="logo">Pattu</div>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="sobre.html">Sobre</a>
+      <a href="contato.html" class="active">Contato</a>
+      <a href="portfolio.html">Portfólio</a>
+    </nav>
+  </header>
+
+  <div class="page-container">
+    <main>
+      <h1>Entre em Contato</h1>
+      <p>Email: <a href="mailto:kauak4006@gmail.com">kauak4006@gmail.com</a></p>
+      <p>Telefone: (11) 97696-5693</p>
+      <p>Ou nos envie uma mensagem pelo formulário abaixo:</p>
+
+      <form action="https://formsubmit.co/88f4266ec990474022c9a1b2ef46ecd4" method="POST">
+        <input type="hidden" name="_captcha" value="false" />
+        <input type="hidden" name="_next" value="http://127.0.0.1:5500/obrigado.html" />
+
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="4" required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </main>
+  </div>
+  <footer>
+    <div class="rodape">
+      <p>&copy; 2025 Pattu. Todos os direitos reservados.</p>
+      <div class="social">
+        <a href="#">Instagram</a>
+        <a href="#">WhatsApp</a>
+        <a href="#">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
